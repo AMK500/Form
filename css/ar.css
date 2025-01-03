@@ -1,6 +1,7 @@
 
 body {
   background-color: #282828;
+  text-align: right;
 }
 
 .language {
@@ -78,6 +79,7 @@ form div :where(input, select, textarea) {
   font-size: 20px;
   font-weight: 500;
   display: flex;
+  text-align: right;
 }
 
 form div label {
@@ -86,7 +88,7 @@ form div label {
   color: #00a6ff;
   padding: 0 5px;
   top: 19px;
-  left: 10px;
+  right: 10px;
   transition: all 0.3s;
   font-size: 18px;
   background: #282828;
@@ -140,6 +142,7 @@ form .radio-checkbox h4 {
   margin-bottom: 15px;
   font-size: 16px;
   font-weight: 500;
+  text-align: right;
 }
 
 form .radio-checkbox input {
@@ -155,11 +158,6 @@ form .radio-checkbox label {
   font-size: 18px;
   pointer-events: all;
   padding: 0;
-}
-
-form .radio-checkbox .radios,
-form .radio-checkbox .checkboxs {
-  width: 50%;
 }
 
 form .radio-checkbox .radios .radio-s,
@@ -179,6 +177,7 @@ form .radio-checkbox .checkboxs .checkbox {
   display: flex;
   align-items: center;
   gap: 10px;
+  justify-content: end;
 }
 
 form div button {
