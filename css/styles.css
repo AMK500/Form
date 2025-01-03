@@ -3,8 +3,51 @@ body {
   background-color: #282828;
 }
 
+.language {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 530px;
+  padding: 0 15px;
+  padding-top: 40px;
+}
+
+.language a {
+  width: 250px;
+  height: 50px;
+  border: 2px solid #00a6ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #00a6ff;
+  font-weight: 700;
+  font-size: 17px;
+  transition: all 0.3s;
+}
+
+.language a:hover {
+  color: #282828;
+  background: #00a6ff;
+}
+
+.language .en {
+  border-radius: 6px 0 0 6px;
+  border-right: none;
+}
+
+.language .ar {
+  border-radius: 0 6px 6px 0;
+  border-left: none;
+}
+
+.language .active {
+  color: #282828;
+  background: #00a6ff;
+}
+
 form {
-  padding: 40px 15px;
+  padding: 30px 15px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -95,6 +138,7 @@ form .radio-checkbox {
 
 form .radio-checkbox h4 {
   margin-bottom: 15px;
+  font-size: 16px;
   font-weight: 500;
 }
 
@@ -109,7 +153,8 @@ form .radio-checkbox .checkboxs {
 form .radio-checkbox input {
   width: 25px;
   height: 25px;
-  background: transparent;
+  accent-color: #00a6ff;
+  background: #282828;
 }
 
 form .radio-checkbox label {
@@ -158,99 +203,3 @@ form div button:hover {
   color: #00a6ff;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* _________HERO_________ */
-
-/* #region HERO */
-
-@media (max-width: 500px) {
-
-}
-
-/* #endregion HERO */
-
-
-
-/* __________TWO_________ */
-
-/* #region TWO */
-
-@media (max-width: 500px) {
-
-}
-
-/* #endregion TWO */
-
-
-
-/* _________THREE________ */
-
-/* #region THREE */
-
-@media (max-width: 500px) {
-
-}
-
-/* #endregion THREE */
-
-
-
-/* __________FOUR________ */
-
-/* #region FOUR */
-
-@media (max-width: 500px) {
-
-}
-
-/* #endregion FOUR */
-
-
-
-/* __________FIVE________ */
-
-/* #region FIVE */
-
-@media (max-width: 500px) {
-
-}
-
-/* #endregion FIVE */
-
-
-
-/* __________SIX_________ */
-
-/* #region SIX */
-
-@media (max-width: 500px) {
-
-}
-
-/* #endregion SIX */
-
-
-
-/* _________FOOTER_______ */
-
-/* #region FOOTER */
-
-@media (max-width: 500px) {
-
-}
-
-/* #endregion FOOTER */
