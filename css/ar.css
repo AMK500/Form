@@ -121,7 +121,7 @@ form div svg {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  right: 12px;
+  left: 12px;
   pointer-events: none;
 }
 
