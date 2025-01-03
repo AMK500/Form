@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>NEW (Home)</title>
+
+    <!-- Main CSS -->
+    <link href="./css/grid-s.css" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link href="./css/styles.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <form action="" id="login-form">
+      <div class="email">
+        <input type="email" id="email" required placeholder="">
+        <label for="email">Email</label>
+      </div>
+
+      <div class="pas">
+        <input type="password" id="pas" required placeholder="">
+        <label for="pas">Password</label>
+      </div>
+
+      <div class="select">
+        <select name="" id="select" required>
+          <option value="" selected hidden disabled></option>
+          <option value="dog">Dog</option>
+          <option value="cat">Cat</option>
+          <option value="hamster">Hamster</option>
+          <option value="parrot">Parrot</option>
+          <option value="spider">Spider</option>
+          <option value="goldfish">Goldfish</option>
+        </select>
+        <label for="select">Country</label>
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#00a6ff">
+          <path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/>
+        </svg>
+      </div>
+
+      <div class="select">
+        <textarea  id="textarea" required></textarea>
+        <label for="textarea">Comment</label>
+      </div>
+
+      <div class="radio-checkbox">
+        <div class="radios">
+          <h4>
+            What is your favorite animal ?
+          </h4>
+
+          <div class="radio-s">
+            <div class="radio">
+              <input type="radio" id="cat" name="radio">
+              <label for="cat">Cat</label>
+            </div>
+  
+            <div class="radio">
+              <input type="radio" id="dog" name="radio">
+              <label for="dog">Dog</label>
+            </div>
+  
+            <div class="radio">
+              <input type="radio" id="cattt" name="radio">
+              <label for="cattt">Monkey</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="checkboxs">
+          <h4>
+            What vehicles do you have ?
+          </h4>
+
+          <div class="checkbox-s">
+            <div class="checkbox">
+              <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+              <label for="vehicle1">Car</label>
+            </div>
+  
+            <div class="checkbox">
+              <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+              <label for="vehicle2">Bike</label>
+            </div>
+  
+            <div class="checkbox">
+              <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+              <label for="vehicle3">Boat</label>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div>
+        <button type="submit">
+          Log In
+        </button>
+      </div>
+    </form>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>

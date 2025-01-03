@@ -1,0 +1,256 @@
+
+body {
+  background-color: #282828;
+}
+
+form {
+  padding: 40px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  max-width: 530px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form div {
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+}
+
+form div :where(input, select, textarea) {
+  padding: 0 15px;
+  background: transparent;
+  border: 2px solid #00a6ff;
+  color: #00a6ff;
+  outline: none;
+  width: 100%;
+  max-width: 500px;
+  height: 55px;
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+}
+
+form div label {
+  pointer-events: none;
+  position: absolute;
+  color: #00a6ff;
+  padding: 0 5px;
+  top: 19px;
+  left: 10px;
+  transition: all 0.3s;
+  font-size: 18px;
+  background: #282828;
+  line-height: 100%;
+  font-weight: 500;
+  z-index: 5;
+}
+
+form div :where(input, select, textarea):focus + label,
+form div :where(input, select, textarea).to-top + label {
+  top: -6px;
+  font-size: 15px;
+}
+
+form div :where(input, select, textarea):user-invalid + label { 
+  color: #ff7373;
+}
+
+form div :where(input, select, textarea):user-invalid {
+  border-color: #ff7373;
+}
+
+form div select {
+  padding: 0 11px;
+  appearance: none;
+  background-color: #282828;
+}
+
+form div svg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 12px;
+  pointer-events: none;
+}
+
+form div textarea {
+  height: 130px;
+  padding: 12px 15px;
+  resize: block;
+}
+
+form .radio-checkbox {
+  display: flex;
+  justify-content: space-between;
+  color: #00a6ff;
+  gap: 15px;
+}
+
+form .radio-checkbox h4 {
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+form .radio-checkbox .checkboxs h4 {
+  max-width: 200px;
+}
+
+form .radio-checkbox .checkboxs {
+  max-width: 200px;
+}
+
+form .radio-checkbox input {
+  width: 25px;
+  height: 25px;
+  background: transparent;
+}
+
+form .radio-checkbox label {
+  position: sticky;
+  background: transparent;
+  font-size: 18px;
+  pointer-events: all;
+  padding: 0;
+}
+
+form .radio-checkbox .radios .radio-s,
+form .radio-checkbox .checkboxs .checkbox-s  {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 200px;
+}
+
+form .radio-checkbox input:focus + label,
+form .radio-checkbox input.to-top + label {
+  font-size: 18px;
+}
+
+form .radio-checkbox .radios .radio,
+form .radio-checkbox .checkboxs .checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+form div button {
+  background: #00a6ff;
+  border: 2px solid #00a6ff;
+  height: 55px;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 6px;
+  color: #282828;
+  font-size: 20px;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+form div button:hover {
+  background: transparent;
+  color: #00a6ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* _________HERO_________ */
+
+/* #region HERO */
+
+@media (max-width: 500px) {
+
+}
+
+/* #endregion HERO */
+
+
+
+/* __________TWO_________ */
+
+/* #region TWO */
+
+@media (max-width: 500px) {
+
+}
+
+/* #endregion TWO */
+
+
+
+/* _________THREE________ */
+
+/* #region THREE */
+
+@media (max-width: 500px) {
+
+}
+
+/* #endregion THREE */
+
+
+
+/* __________FOUR________ */
+
+/* #region FOUR */
+
+@media (max-width: 500px) {
+
+}
+
+/* #endregion FOUR */
+
+
+
+/* __________FIVE________ */
+
+/* #region FIVE */
+
+@media (max-width: 500px) {
+
+}
+
+/* #endregion FIVE */
+
+
+
+/* __________SIX_________ */
+
+/* #region SIX */
+
+@media (max-width: 500px) {
+
+}
+
+/* #endregion SIX */
+
+
+
+/* _________FOOTER_______ */
+
+/* #region FOOTER */
+
+@media (max-width: 500px) {
+
+}
+
+/* #endregion FOOTER */

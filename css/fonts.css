@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Merienda';
+    src: url('../fonts/Merienda-Bold.woff2') format('woff2'),
+        url('../fonts/Merienda-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Merienda';
+    src: url('../fonts/Merienda-Black.woff2') format('woff2'),
+        url('../fonts/Merienda-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Merienda';
+    src: url('../fonts/Merienda-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Merienda-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Merienda';
+    src: url('../fonts/Merienda-Light.woff2') format('woff2'),
+        url('../fonts/Merienda-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Merienda';
+    src: url('../fonts/Merienda-Regular.woff2') format('woff2'),
+        url('../fonts/Merienda-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Merienda';
+    src: url('../fonts/Merienda-Medium.woff2') format('woff2'),
+        url('../fonts/Merienda-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Merienda';
+    src: url('../fonts/Merienda-SemiBold.woff2') format('woff2'),
+        url('../fonts/Merienda-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
