@@ -1,4 +1,5 @@
 
+
 body {
   background-color: #282828;
 }
@@ -78,6 +79,7 @@ form div :where(input, select, textarea) {
   font-size: 20px;
   font-weight: 500;
   display: flex;
+  background: #282828;
 }
 
 form div label {
@@ -101,11 +103,15 @@ form div :where(input, select, textarea).to-top + label {
   font-size: 15px;
 }
 
-form div :where(input, select, textarea):user-invalid + label { 
+form div :where(input, select, textarea):user-invalid + label + svg { 
+  fill: #ff7373;
+}
+
+form div :where(input, select, textarea):user-invalid + label {
   color: #ff7373;
 }
 
-form div :where(input, select, textarea):user-invalid {
+form div :where(input, select, textarea):user-invalid  {
   border-color: #ff7373;
 }
 
